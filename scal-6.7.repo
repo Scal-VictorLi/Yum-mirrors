@@ -1,0 +1,88 @@
+[base]
+name=CentOS-$releasever - Base - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/os/x86_64/
+gpgcheck=0
+enabled=1
+ 
+#released updates 
+[updates]
+name=CentOS-$releasever - Updates - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/updates/x86_64
+gpgcheck=0
+enabled=1
+ 
+#additional packages that may be useful
+[extras]
+name=CentOS-$releasever - Extras - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/extras/x86_64/
+gpgcheck=0
+enabled=1
+ 
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS-$releasever - Plus - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/centosplus/x86_64/
+gpgcheck=0
+enabled=1
+ 
+#contrib - packages by Centos Users
+[contrib]
+name=CentOS-$releasever - Contrib - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/contrib/x86_64/
+gpgcheck=0
+enabled=1
+
+[cloud]
+name=CentOS-$releasever - Cloud - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/cloud/x86_64/openstack-juno/
+gpgcheck=0
+enabled=1
+
+[cr]
+name=CentOS-$releasever - Cr - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/cr/x86_64/
+gpgcheck=0
+enabled=1
+
+[fasttrack]
+name=CentOS-$releasever - Fasttrack - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/fasttrack/x86_64/
+gpgcheck=0
+enabled=1
+
+[SCL]
+name=CentOS-$releasever - SCL - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/SCL/x86_64/
+gpgcheck=0
+enabled=1
+
+[sclo]
+name=CentOS-$releasever - Sclo - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/sclo/x86_64/sclo
+gpgcheck=0
+enabled=1
+
+[sclo]
+name=CentOS-$releasever - Sclo - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/sclo/x86_64/rh
+gpgcheck=0
+enabled=1
+
+[virt]
+name=CentOS-$releasever - Virt - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/virt/x86_64/xen
+gpgcheck=0
+enabled=1
+
+[xen4]
+name=CentOS-$releasever -Xen4 - mirrors.ustc.edu.cn
+baseurl=http://172.18.81.189/mirrors/centos/6.7/xen4/x86_64
+gpgcheck=0
+enabled=1
+
+[epel]
+name=Extra Packages for Enterprise Linux 6 - $basearch
+baseurl=http://172.18.81.189/mirrors/epel/6Server/x86_64
+failovermethod=priority
+enabled=1
+gpgcheck=0
